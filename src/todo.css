@@ -1,0 +1,21 @@
+input{
+  border: 1px solid #CCC;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 14px;
+}
+button {
+  margin: 20px 0;
+  background-color: black;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover{
+  outline: none;
+  background-color: gray;
+}

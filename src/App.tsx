@@ -1,8 +1,7 @@
-import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Play from "./Play";
-import Todo from "./Todo";
+import ToDoApp from "./ToDoApp";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
           }
         />
         <Route path="/play" element={<Play />} />
-        <Route path="/todo" element={<Todo />} />
+        <Route path="/apptest" element={<ToDoApp />} />
       </Routes>
     </Router>
   );
